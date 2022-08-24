@@ -11,6 +11,10 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    margin: 0;
+}
+
+.body1 {
     margin-left: 120px;
     margin-top: 90px;
     margin-right: 120px;
@@ -240,3 +244,88 @@ body {
 /*------------------------
     Section Four Start
 -------------------------*/
+
+.fourth-section {
+    margin-top: 100px;
+}
+
+.fourth-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.gear-photo {
+    margin-top: 50px;
+    width: 404px;
+    height: 270px;
+}
+
+#feature-text {
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+}
+
+#feature-inside {
+    width: 501px;
+    height: 88px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+.button4 {
+    width: 196px;
+    height: 44px;
+}
+
+.button4 a {
+    text-decoration: none;
+}
+
+#join {
+    width: 155px;
+    height: 44px;
+    background-color: #E02C6D;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+/*----------------------------
+    Section Four Ended
+----------------------------- */
+
+/*----------------------------
+         Footer Start
+----------------------------- */
+
+footer {
+    margin-top: 100px;
+    margin-left: 0;
+    width: 2000px;
+    height: 240px;
+    background-color: #0A0826;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content {
+    color: #D1D1D1;
+    padding: 50px 589px;
+}
+
+#footer-text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-para {
+    font-size: 14px;
+    font-weight: 700;
+}
