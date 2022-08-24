@@ -1,0 +1,59 @@
+/* -----------
+    Fonts
+-------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Heebo&family=Lobster&family=Oleo+Script+Swash+Caps&family=Poppins:wght@400;500&family=Yeseva+One&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-left: 120px;
+    margin-top: 90px;
+    margin-right: 120px;
+}
+
+/* -------------------
+      First Section
+ --------------------- */
+.aricle-1 {
+    width: 582px;
+    height: 270px;
+}
+
+#journey-text {
+    width: 582px;
+    height: 133px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+#inside-text {
+    width: 505px;
+    height: 60.9px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+
+
+.button {
+    width: 196px;
+    height: 44px;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+#prebook {
+    width: 196px;
+    height: 44px;
+    border-radius: 35px;
+    background-color: #E02C6D;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 80px;
+    padding-top: 20px;
+}
