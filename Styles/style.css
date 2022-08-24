@@ -329,3 +329,112 @@ footer {
     font-size: 14px;
     font-weight: 700;
 }
+
+/*-----------------
+    Media Query
+ ----------------- */
+
+@media only screen and (max-width:688px) {
+    body {
+        margin: 0;
+    }
+
+    .body1 {
+        margin: 0;
+    }
+
+    .first-container {
+        margin-top: 100px;
+        scale: 0.65;
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .camera-photo {
+        width: 400px;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aricle-1 {
+        width: 404px;
+        height: 222px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #journey-text,
+    #inside-text {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .second-section {
+        width: 275px;
+        height: 61px;
+    }
+
+    .companies {
+        width: 275px;
+        height: 61px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: space-evenly;
+        align-content: center;
+        justify-items: center;
+    }
+
+    /* .third-section {
+
+    } */
+
+    .third-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #see-text {
+        display: none;
+    }
+
+    .fourth-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .aricle-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #feature-text,
+    #feature-inside {
+        text-align: center;
+    }
+
+    /* .fourth-section {
+        display: none;
+    } */
+
+    footer {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 0;
+    }
+
+    .footer-content {
+        position: relative;
+        bottom: 50px;
+        width: 224px;
+        height: 111px;
+        padding: 0;
+    }
+}
