@@ -95,3 +95,33 @@ body {
 /*--------------------------------
         Second Section Start
 -------------------------------- */
+
+.second-section {
+    margin-top: 70px;
+    margin-left: 15%;
+    width: 1110px;
+    height: 110px;
+}
+
+.hori-line {
+    color: #D1D1D1;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    width: 986px;
+    height: 40px;
+}
+
+/*-------------------------
+    Second Section Done 
+--------------------------- */
+
+/*-------------------------
+    Third Section Strat
+------------------------- */
