@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Heebo&family=Lobster&family=Oleo+Script+Swash+Caps&family=Poppins:wght@400;500&family=Yeseva+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Heebo&family=Inter:wght@700&family=Lobster&family=Oleo+Script+Swash+Caps&family=Poppins:wght@400;500&family=Yeseva+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Heebo&family=Inter:wght@700&family=Lobster&family=Oleo+Script+Swash+Caps&family=Poppins:wght@400;500&family=Roboto:wght@700&family=Yeseva+One&display=swap');
+
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -119,9 +123,120 @@ body {
 }
 
 /*-------------------------
-    Second Section Done 
+    Second Section End 
 --------------------------- */
 
 /*-------------------------
     Third Section Strat
 ------------------------- */
+
+.third-section {
+    margin-top: 100px;
+}
+
+.third-section a {
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    left: 1455px;
+
+}
+
+.third-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 60px;
+    justify-items: center;
+}
+
+#popular-text {
+    text-align: center;
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 28px;
+
+}
+
+.one-item {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 329px;
+    height: 476px;
+    margin: 0;
+    padding: 0;
+}
+
+.product-name {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.product-price {
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    font-style: normal;
+    margin: 0;
+}
+
+.star {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-bottom: 0;
+}
+
+.fa-star {
+    width: 11px;
+    height: 11px;
+    color: #FB8200;
+    margin-right: 8px;
+}
+
+.rating-number {
+    font-family: 'Roboto', sans-serif;
+    color: #5E6366;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 12px;
+}
+
+.components {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.components>img {
+    margin-bottom: 15px;
+}
+
+.shipping-info {
+    margin-top: 0;
+    font-family: 'Inter', sans-serif;
+    color: #787885;
+    font-weight: 700;
+    font-size: 14px;
+    width: 196px;
+    height: 61px;
+    letter-spacing: 0.018em;
+    line-height: 143%;
+
+}
+
+#see-text {
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* ----------------------------
+        Section Three End
+------------------------------ */
+
+/*------------------------
+    Section Four Start
+-------------------------*/
